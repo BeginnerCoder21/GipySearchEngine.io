@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<style media="screen">
+  body{
+    height: 100%;
+    margin: 0;
+    paddin:0;
+    font-family: Roboto;
+  }
+  .head{
+    position: absolute;
+    font-size: 50px;
+    font-weight: 500;
+    margin: 70px 0 0 500px;
+  }
+  .search{
+    position: absolute;
+    width: 100%;
+  }
+  .search input{
+    height: 50px;
+    width: 700px;
+    font-size: 25px;
+    float: left;
+    margin: 200px 0px 50px 320px;
+    border-radius: 5px;
+    border: 0.4px solid gray;
+  }
+  .search input:focus{
+    border: 0.4px solid green;
+    outline: green;
+  }
+  .search button{
+    height: 50px;
+    width: 60px;
+    margin-top: 200px;
+    margin-left: 30px;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+  }
+  .container{
+    margin-top: 300px;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+  }
+  .container-image{
+    margin: 10px;
+  }
+</style>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Glyphy Search</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="head">
+      Giphy Search Engine
+    </div>
+    <div class="search">
+      <input type="text" name="" class="inputf">
+      <button type="submit" name="button" class="search">GO!</button>
+    </div>
+    <div class="container">
+      <img class="container-image" src="" alt="">
+    </div>
+    <script type="text/javascript" src="engine.js">
+    </script>
+  </body>
+</html>
